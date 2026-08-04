@@ -7,19 +7,13 @@ import Benefits from "@/components/opportunity-details/Benefits";
 import CompanyInfo from "@/components/opportunity-details/CompanyInfo";
 import ApplyCard from "@/components/opportunity-details/ApplyCard";
 import Description from "@/components/opportunity-details/Description";
+import opportunities from "@/data/opportunities.json";
 
 
-async function getOpportunity(id: string) {
-  const res = await fetch(
-    "http://localhost:3000/api/opportunities",
-    {
-      cache: "no-store",
-    }
+function getOpportunity(id: string) {
+  return (opportunities as Opportunity[]).find(
+    (item) => item.id === Number(id)
   );
-
-  const data: Opportunity[] = await res.json();
-
-  return data.find((item) => item.id === Number(id));
 }
 
 
