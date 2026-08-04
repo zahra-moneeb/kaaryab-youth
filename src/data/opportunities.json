@@ -83,5 +83,34 @@
     "deadline": "2026-09-01",
     "applyLink": "https://example.com",
     "companyDescription": "A software company"
+  },
+  {
+    "id": 5,
+    "postedAt": "2026-08-04",
+    "featured": false,
+    "title": "djkfldf",
+    "company": "djkfkdj",
+    "opportunityType": "Internship",
+    "category": "Design",
+    "type": "Job",
+    "location": "Herat",
+    "salary": "3435",
+    "experience": "Beginner",
+    "description": "klfjd dlfjd ldj kjdf ldjd ldfjdlj dlfj f",
+    "deadline": "2026-08-21",
+    "applyLink": "https://example.com/apply",
+    "logo": "/images/companies/gmspro.png",
+    "isRemote": false,
+    "companyDescription": "kldjdkjf ldkfjdklfj jfldf dlfjd fldfj fl",
+    "requirements": [
+      {
+        "value": "kdjfhd dkfh"
+      }
+    ],
+    "benefits": [
+      {
+        "value": "kdfjkdhfkd dkfh"
+      }
+    ]
   }
 ]
