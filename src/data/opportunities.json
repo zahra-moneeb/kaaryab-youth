@@ -86,31 +86,28 @@
   },
   {
     "id": 5,
-    "postedAt": "2026-08-04",
+    "postedAt": "2026-07-25",
     "featured": false,
-    "title": "djkfldf",
-    "company": "djkfkdj",
-    "opportunityType": "Internship",
-    "category": "Design",
-    "type": "Job",
-    "location": "Herat",
-    "salary": "3435",
-    "experience": "Beginner",
-    "description": "klfjd dlfjd ldj kjdf ldjd ldfjdlj dlfj f",
-    "deadline": "2026-08-21",
-    "applyLink": "https://example.com/apply",
-    "logo": "/images/companies/gmspro.png",
+    "title": "Frontend Developer",
+    "company": "Web Solutions",
+    "logo": "/images/companies/websolutions.png",
+    "opportunityType": "Job",
+    "category": "Technology",
+    "type": "Full-time",
+    "location": "Kabul",
     "isRemote": false,
-    "companyDescription": "kldjdkjf ldkfjdklfj jfldf dlfjd fldfj fl",
+    "salary": "$400",
+    "experience": "Beginner",
+    "description": "Frontend Developer Position",
     "requirements": [
-      {
-        "value": "kdjfhd dkfh"
-      }
+      "HTML, CSS, JavaScript",
+      "React.js"
     ],
     "benefits": [
-      {
-        "value": "kdfjkdhfkd dkfh"
-      }
-    ]
+      "Flexible working hours"
+    ],
+    "deadline": "2026-09-15",
+    "applyLink": "https://example.com/apply/frontend",
+    "companyDescription": "A web development company"
   }
 ]
