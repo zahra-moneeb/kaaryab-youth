@@ -110,9 +110,10 @@ export default function OpportunityForm({ initialData }: OpportunityFormProps) {
         );
       }
 
-      const savedOpportunity = await response.json();
+      // const savedOpportunity = await response.json();
 
-      router.push(`/opportunities/${savedOpportunity.id}`);
+      // router.push(`/opportunities/${savedOpportunity.id}`);
+      router.push("/opportunities");
       router.refresh();
     } catch (error) {
       console.error(error);
