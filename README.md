@@ -68,3 +68,27 @@ KaarYab solves this problem by collecting opportunities in one platform and maki
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+
+
+## Live Demo Link
+
+🔗 https://kaaryab-youth-gyld9s87r-zahra-m-projects6.vercel.app/
+
+
+## Screenshots
+
+### Home Page
+
+![Home Page](./screenshots/home.png)
+
+### Opportunities Page
+
+![Opportunities Page](./screenshots/opportunities.png)
+
+### Dashboard
+
+![Dashboard](./screenshots/dashboard.png)
+
+### Add Opportunity Form
+
+![Add Opportunity Form](./screenshots/add-opportunity.png)
