@@ -1,17 +1,10 @@
 import OpportunityForm from "@/components/opportunities/OpportunityForm";
 import { Opportunity } from "@/types/opportunity";
+import opportunities from "@/data/opportunities.json";
 
-async function getOpportunity(id: string) {
-  const res = await fetch(
-    "http://localhost:3000/api/opportunities",
-    {
-      cache: "no-store",
-    }
-  );
 
-  const data: Opportunity[] = await res.json();
-
-  return data.find(
+function getOpportunity(id: string) {
+  return (opportunities as Opportunity[]).find(
     (item) => item.id === Number(id)
   );
 }
