@@ -83,7 +83,7 @@ http://localhost:3000
 
 🔗 Vercel Deployment:
 
-https://kaaryab-youth-gyld9s87r-zahra-m-projects6.vercel.app/
+https://kaaryab-youth.vercel.app/
 
 ---
 
